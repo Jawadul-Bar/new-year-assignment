@@ -126,9 +126,6 @@
     align-items: center;
     margin-top: 68px;
     margin-right: 138px;
-    background: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
 }
 
 .info {
@@ -182,18 +179,6 @@
     padding-top: 50px;
 }
 
-/* .celebration {
-    box-sizing: border-box;
-    border: 15px solid rgb(255, 0, 0);
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.friends {
-    height: 200px;
-    width: 200px;
-} */
 .cel {
     box-sizing: border-box;
     position:absolute;
@@ -245,4 +230,198 @@
 .year {
     height: 100px;
     width: 100px;
+}
+
+.holi {
+    position: absolute;
+    width: 1320px;
+    height: 950px;
+    left: 140px;
+    right: 140px;
+    margin-top: 570px;
+    background-image: url("Images/red\ box.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.functional {
+    padding-left: 126px;
+    padding-right: 126px;
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+}
+
+.box {
+    position: absolute;
+    width: 796.46px;
+    height: 662.07px;
+    top: 300px;
+    bottom: -3925px;
+}
+
+.rect {
+    position: absolute;
+    width: 429px;
+    height: 422px;
+    left: 890px;
+    top: 300px;
+    bottom: -3925px;
+}
+
+.dis {
+    position: absolute;
+    width: 206.84px;
+    height: 206.84px;
+    left: 800px;
+    top: 40%;
+    bottom: -51.02%;
+}
+
+.what {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+
+.h-sale {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holidays {
+    color: #F00;
+}
+
+.holi-msg {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 500px;
+}
+
+.products {
+    position: absolute;
+    width: 1320px;
+    height: 1163px;
+    left: 140px;
+    right: -140px;
+    top: 4565.07px;
+}
+
+.gifts {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hine {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pro-info {
+    margin-right: 30%;
+    margin-bottom: 30px;
+}
+
+.shelf-1 {
+    display: flex;
+    gap: 25px;
+}
+
+.shelf-2 {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.newsletter {
+    position: absolute;
+    width: 1320px;
+    height: 616px;
+    left: 140px;
+    right: 140px;
+    top: 5800.07px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+}
+
+.mail {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.news {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.req {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding-left: 212px;
+    padding-right: 212px;
+}
+
+.subscribe {
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    position: center;
+    width: 550px;
+    height: 72px;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+    border: none;
+}
+
+.submit {
+    position: center;
+    width: 150px;
+    height: 72px;
+    margin-left: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #F00;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.subs {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.submit:hover {
+    cursor: progress;
 }
