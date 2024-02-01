@@ -425,3 +425,40 @@
 .submit:hover {
     cursor: progress;
 }
+
+.foot {
+    position: absolute;
+    width: 1320px;
+    height: 300px;
+    top: 6726.07px;
+    background-color: black;
+    color: white;
+    padding: 140px;
+    text-align: center;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 125px;
+    line-height: 25px;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unsub {
+    color: #FFF;
+    background: none;
+    border: none;
+}
+
+.logos{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.unsub:hover {
+    cursor: progress;
+}
