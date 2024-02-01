@@ -3,7 +3,7 @@
     width: 1320px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("Images/BannerImage.png");
     border-radius: 16px;
-    margin: 50px 140px 0px 140px;
+    margin: 60px 140px 0px 140px;
     display: block;
 }
 
@@ -18,17 +18,17 @@
 .happy {
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 100;
     padding-top: 187px;
 }
 
 .new {
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 62px;
     font-weight: 900;
-    margin-top: -16px;
+    margin-top: 26px;
 }
 
 .sales {
@@ -430,7 +430,7 @@
     position: absolute;
     width: 1320px;
     height: 300px;
-    top: 6726.07px;
+    top: 6610px;
     background-color: black;
     color: white;
     padding: 140px;
