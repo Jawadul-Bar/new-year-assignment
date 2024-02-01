@@ -166,3 +166,83 @@
 .btn1:hover {
     cursor: grab;
 }
+
+.coming {
+    display: flex;
+    position: absolute;
+    gap: 50%;
+    width: 1320px;
+    height: 463px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 120px;
+}
+
+.soon {
+    padding-top: 50px;
+}
+
+/* .celebration {
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.friends {
+    height: 200px;
+    width: 200px;
+} */
+.cel {
+    box-sizing: border-box;
+    position:absolute;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin-left: 39%;
+    background-image: url("Images/Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.new-offer {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -40px;
+}
+
+.offer-des, .wis {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.cs {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.four {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: -14px;
+}
+
+.year {
+    height: 100px;
+    width: 100px;
+}
